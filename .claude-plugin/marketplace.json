@@ -1,0 +1,16 @@
+{
+  "name": "yasanglass",
+  "owner": {
+    "name": "Yasan Ghaffarian",
+    "email": "yasanglass@gmail.com",
+    "url": "https://yasan.glass/"
+  },
+  "plugins": [
+    {
+      "name": "kotlin-skills",
+      "source": "./plugins/kotlin-skills",
+      "description": "Skills for Kotlin.",
+      "version": "1.0.0"
+    }
+  ]
+}

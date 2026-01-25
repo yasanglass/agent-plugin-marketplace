@@ -1,0 +1,17 @@
+{
+  "name": "kotlin-skills",
+  "version": "1.0.0",
+  "description": "Skills for Kotlin.",
+  "author": {
+    "name": "Yasan Ghaffarian",
+    "email": "yasanglass@gmail.com",
+    "url": "https://yasan.glass"
+  },
+  "repository": "https://github.com/yasanglass/agent-plugin-marketplace",
+  "license": "MIT",
+  "keywords": [
+    "kotlin",
+    "kotlin multiplatform",
+    "kmp"
+  ]
+}
