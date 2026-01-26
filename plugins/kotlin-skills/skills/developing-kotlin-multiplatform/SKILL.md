@@ -120,7 +120,7 @@ actual fun createDeviceInfo(): DeviceInfo = IosDeviceInfo()
 - Using `expect/actual class` when an interface would suffice
 
 ## Gradle Tasks
-- Use target-specific tasks instead of `gradlew build`
+- NEVER run `build` gradle task, ALWAYS use target-specific smaller gradle tasks.
 - Run `./gradlew tasks` to list available tasks
 - For iOS, prefer a single target (e.g., `iosSimulatorArm64`) unless all are needed
 
