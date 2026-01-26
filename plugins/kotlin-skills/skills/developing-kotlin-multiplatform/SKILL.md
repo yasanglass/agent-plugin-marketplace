@@ -3,6 +3,11 @@ name: Kotlin Multiplatform Development
 description: Provides patterns for Kotlin Multiplatform (KMP) expect/actual declarations, source sets, Gradle tasks, and Kotlin/Native builds. Use when developing KMP projects, sharing code across Android, iOS, JVM, JS, and Wasm, or configuring multiplatform dependencies.
 ---
 
+## Gradle Tasks
+- NEVER run `build` gradle task, ALWAYS use target-specific smaller gradle tasks.
+- Run `./gradlew tasks` to list available tasks
+- For iOS, prefer a single target (e.g., `iosSimulatorArm64`) unless all are needed
+
 ## File Naming
 Use platform suffixes to distinguish files with the same name across platforms:
 - `FileManager.kt` → common expect
@@ -118,11 +123,6 @@ actual fun createDeviceInfo(): DeviceInfo = IosDeviceInfo()
 
 - Mismatched packages between `expect/actual` declarations
 - Using `expect/actual class` when an interface would suffice
-
-## Gradle Tasks
-- NEVER run `build` gradle task, ALWAYS use target-specific smaller gradle tasks.
-- Run `./gradlew tasks` to list available tasks
-- For iOS, prefer a single target (e.g., `iosSimulatorArm64`) unless all are needed
 
 ### Compilation
 | Pattern | Examples |
