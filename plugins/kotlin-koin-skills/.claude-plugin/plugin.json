@@ -1,0 +1,13 @@
+{
+  "name": "kotlin-koin-skills",
+  "version": "1.0.0",
+  "description": "Skills for Koin dependency injection in Kotlin.",
+  "author": {
+    "name": "Yasan Ghaffarian",
+    "email": "yasanglass@gmail.com",
+    "url": "https://yasan.glass"
+  },
+  "repository": "https://github.com/yasanglass/agent-plugin-marketplace",
+  "license": "MIT",
+  "keywords": ["kotlin", "koin", "dependency injection"]
+}

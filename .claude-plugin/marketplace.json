@@ -11,6 +11,12 @@
       "source": "./plugins/kotlin-skills",
       "description": "Skills for Kotlin.",
       "version": "1.0.0"
+    },
+    {
+      "name": "kotlin-koin-skills",
+      "source": "./plugins/kotlin-koin-skills",
+      "description": "Skills for Koin dependency injection in Kotlin.",
+      "version": "1.0.0"
     }
   ]
 }
