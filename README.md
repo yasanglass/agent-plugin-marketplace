@@ -23,9 +23,3 @@ Add the plugin contents to your `.claude` folder.
 ```sh
 /plugin install kotlin-skills@yasanglass
 ```
-
-### [kotlin-koin-skills](plugins/kotlin-koin-skills)
-
-```sh
-/plugin install kotlin-koin-skills@yasanglass
-```
