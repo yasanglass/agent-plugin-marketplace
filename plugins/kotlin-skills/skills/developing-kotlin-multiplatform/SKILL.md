@@ -8,9 +8,9 @@ metadata:
 ---
 
 ## Gradle Tasks
-- NEVER run `build` gradle task, ALWAYS use target-specific smaller gradle tasks.
-- Run `./gradlew tasks` to list available tasks
-- For iOS, prefer a single target (e.g., `iosSimulatorArm64`) unless all are needed
+- ALWAYS use small platform-specific Gradle tasks, NEVER use the generic large tasks like `build`.
+- Run `./gradlew tasks` to list available tasks.
+- For iOS, prefer a single target (e.g., `iosSimulatorArm64`) unless all are specifically needed.
 
 ## File Naming
 Use platform suffixes to distinguish files with the same name across platforms:
