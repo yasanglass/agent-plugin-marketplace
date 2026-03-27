@@ -1,6 +1,6 @@
-# Agent Plugin Marketplace
+# Agent Skills
 
-My personal plugin marketplace for [Claude Code](https://claude.com/product/claude-code) (and other compatible agents).
+My plugin marketplace for [Claude Code](https://claude.com/product/claude-code) (and other compatible agents).
 
 ## Installation
 
@@ -9,7 +9,7 @@ My personal plugin marketplace for [Claude Code](https://claude.com/product/clau
 #### Marketplace
 
 ```sh
-/plugin marketplace add yasanglass/agent-plugin-marketplace
+/plugin marketplace add yasanglass/agent-skills
 ```
 
 #### Local
