@@ -1,6 +1,11 @@
 ---
 name: Kotlin Multiplatform Development
-description: Provides patterns for Kotlin Multiplatform (KMP) expect/actual declarations, source sets, Gradle tasks, and Kotlin/Native builds. Use when developing KMP projects, sharing code across Android, iOS, JVM, JS, and Wasm, or configuring multiplatform dependencies.
+description: >
+  Essential reference for working in any Kotlin Multiplatform (KMP) project.
+  Use whenever developing, building, or debugging a KMP app or library. Covers
+  expect/actual patterns, source set hierarchy, file naming conventions,
+  platform-specific Gradle task naming (compilation, linking, testing), and
+  multiplatform dependency configuration.
 license: Apache-2.0
 metadata:
   author: Yasan Glass
